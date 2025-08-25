@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guest-invitation-form</title>
+</head>
+<body dir="rtl">
+    <h1>
+        فرم دعوت نامه
+    </h1>
+    <fieldset>
+        <legend>اطلاعات مهمان</legend>
+        <label for="name">نام و نام خانوادگی</label>
+        <br>
+        <input type="text" name="name" class="name-label">
+
+        <br>
+
+        <label for="email">ایمیل</label>
+        <br>
+        <input type="text" name="email" class="name-label">
+
+        <br>
+
+        <label for="man">مرد</label>
+        <input type="radio" name="man" class="gender-label">
+        <label for="woman">زن</label>
+        <input type="radio" name="woman" class="gender-label">
+        
+        <br>
+
+        <label for="count">تعداد همراه</label>
+        <select name="count" class="count-select">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+
+        <br>
+
+        <button class="button-agree">ثبت</button>
+        <button class="btn-back">بازنشانی</button>
+    </fieldset>
+</body>
+</html>
